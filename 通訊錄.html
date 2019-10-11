@@ -22,22 +22,6 @@
             ['Eric', '0912345678', '1980/1/1', 'eric@gmail.com', '台北市光復南路179號13樓'],
         ];
 
-        // function GetFormDataJSON(formObj) {
-        //     let fd = new FormData(formObj);
-        //     let data = {};
-        //     for (let [key, prop] of fd) {
-        //         data[key] = prop;
-        //     }
-        //     data = JSON.stringify(data, null, 2);
-        //     return data;
-        // }
-
-        // function show(msg) {
-        //     let html = $('#span1').html();
-        //     html += "<br/>" + msg;
-        //     $('#span1').html(html);
-        // }
-
         function ButtonSearch() {
 
         }
@@ -171,7 +155,6 @@
                 $('#EditField_TEL').val(CurrentEditItem[2]);
                 $('#EditField_Email').val(CurrentEditItem[3]);
                 $('#EditField_Address').val(CurrentEditItem[4]);
-                //alert('You clicked on ' + data[0] + '\'s row');
             });
 
             //load data from storage
@@ -215,83 +198,6 @@
                         </tr>
                     </thead>
                     <!-- <tbody>
-                        <tr>
-                            <td>Tiger Nixon</td>
-                            <td>System Architect</td>
-                            <td>Edinburgh</td>
-                            <td>61</td>
-                            <td>2011/04/25</td>
-                        </tr>
-                        <tr>
-                            <td>Garrett Winters</td>
-                            <td>Accountant</td>
-                            <td>Tokyo</td>
-                            <td>63</td>
-                            <td>2011/07/25</td>
-                        </tr>
-                        <tr>
-                            <td>Haley Kennedy</td>
-                            <td>Senior Marketing Designer</td>
-                            <td>London</td>
-                            <td>43</td>
-                            <td>2012/12/18</td>
-                        </tr>
-                        <tr>
-                            <td>Tatyana Fitzpatrick</td>
-                            <td>Regional Director</td>
-                            <td>London</td>
-                            <td>19</td>
-                            <td>2010/03/17</td>
-                        </tr>
-                        <tr>
-                            <td>Michael Silva</td>
-                            <td>Marketing Designer</td>
-                            <td>London</td>
-                            <td>66</td>
-                            <td>2012/11/27</td>
-                        </tr>
-                        <tr>
-                            <td>Paul Byrd</td>
-                            <td>Chief Financial Officer (CFO)</td>
-                            <td>New York</td>
-                            <td>64</td>
-                            <td>2010/06/09</td>
-                        </tr>
-                        <tr>
-                            <td>Gloria Little</td>
-                            <td>Systems Administrator</td>
-                            <td>New York</td>
-                            <td>59</td>
-                            <td>2009/04/10</td>
-                        </tr>
-                        <tr>
-                            <td>Bradley Greer</td>
-                            <td>Software Engineer</td>
-                            <td>London</td>
-                            <td>41</td>
-                            <td>2012/10/13</td>
-                        </tr>
-                        <tr>
-                            <td>Dai Rios</td>
-                            <td>Personnel Lead</td>
-                            <td>Edinburgh</td>
-                            <td>35</td>
-                            <td>2012/09/26</td>
-                        </tr>
-                        <tr>
-                            <td>Jenette Caldwell</td>
-                            <td>Development Lead</td>
-                            <td>New York</td>
-                            <td>30</td>
-                            <td>2011/09/03</td>
-                        </tr>
-                        <tr>
-                            <td>Yuri Berry</td>
-                            <td>Chief Marketing Officer (CMO)</td>
-                            <td>New York</td>
-                            <td>40</td>
-                            <td>2009/06/25</td>
-                        </tr>
                         <tr>
                             <td>Caesar Vance</td>
                             <td>Pre-Sales Support</td>
